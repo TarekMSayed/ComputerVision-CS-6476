@@ -6,3 +6,15 @@ The course also introduced by Udacity as Introduction to Computer Vision - [ud81
 Course codes and training are explained in Matlab/Octave on Udacity but here we will work using OpenCV.
 ## Refrence Book
 [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)  by [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm).
+## Environment
+- Python 3.x
+- opencv-python
+- matplotlib
+- scikit-image
+- imutils
+### Install
+pip install -r requirements.txt
+
+or
+
+pip install opencv-python matplotlib scikit-image imutils
