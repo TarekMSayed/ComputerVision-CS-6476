@@ -13,8 +13,10 @@ Course codes and training are explained in Matlab/Octave on Udacity but here we 
 - scikit-image
 - imutils
 ### Install
+```shell script
 pip install -r requirements.txt
-
+```
 or
-
+```shell script
 pip install opencv-python matplotlib scikit-image imutils
+```
