@@ -41,7 +41,7 @@ filter = fspecial_gaussian(filter_sigma, filter_size)
 smoothed = cv2.filter2D(noisy_img, -1, filter)
 cv2.imshow("smoothed image", smoothed)
 # using opencv replace fspecial_gaussian and imfilter in MAtLab with one function
-blurred = cv2.GaussianBlur(noisy_img, (filter_size, filter_size), filter_sigma)
+blurred = cv2.GaussianBlur(noisy_img, (filter_size, filter_size), filter_sigma, sigmaY=filter_sigma)
 cv2.imshow("blurred image", blurred)
 # wait to press any key to close
 cv2.waitKey(0)
